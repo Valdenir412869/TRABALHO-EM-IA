@@ -17,21 +17,37 @@ body{
     
 }
 
-
 p{
     font-family: Arial, sans-serif;
     text-align: center;
     border-radius: 10px;
     border: 2px solid blue;
-    color: white;
+    color: black;
     box-sizing: border-box;
+    font-size: 23px;
+   
     
 }
 
-.p{
-    text-align: center;
-    border: 2px solid rgb(228, 228, 243);
+.video-container{
+    text-align: right;
 }
+
+a{
+    font-size: 25px;
+    border-radius: 10px;
+    color: blue;
+    background-color:aqua;
+    text-align: center;
+   
+}
+
+footer{
+    font-size:15px ;
+    color: white;
+}
+
+
 
 
 
