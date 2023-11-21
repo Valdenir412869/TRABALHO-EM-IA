@@ -2,7 +2,7 @@ h1{
     padding: 45px 0 45px 0;
     background-color: rgb(173, 179, 176);
     color: whitesmoke;
-    border: 4px solid  yellowgreen;
+    border: 4px solid  black;
     border-radius: 10px;
     text-align:center;
     background-image: url(./BIOandroide/circuitos.jpg) ;
@@ -10,11 +10,7 @@ h1{
 body{
     padding: 0;
     margin: 0;
-    background-image: url(./BIOandroide/greenandroide.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+    background: linear-gradient(72deg, #94E9F2 1%, #011526 99%);
 }
 
 p{
@@ -22,7 +18,7 @@ p{
     text-align: center;
     border-radius: 10px;
     border: 2px solid blue;
-    color: black;
+    color: white;
     box-sizing: border-box;
     font-size: 23px;
    
@@ -30,7 +26,7 @@ p{
 }
 
 .video-container{
-    text-align: right;
+    text-align: center;
 }
 
 a{
@@ -47,6 +43,9 @@ footer{
     color: white;
 }
 
+.botao{
+    text-align: center;
+}
 
 
 
