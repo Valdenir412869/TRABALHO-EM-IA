@@ -16,7 +16,7 @@ body{
 p{
     font-family: Arial, sans-serif;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid blue;
     color: white;
     box-sizing: border-box;
@@ -43,9 +43,14 @@ footer{
     color: white;
 }
 
-.botao{
+.menu{
     text-align: center;
+    
 }
+.botao{
+    margin-right: 35px;
+}
+
 
 
 
