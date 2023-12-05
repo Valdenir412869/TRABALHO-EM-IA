@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./SLIDES.css">
 </head>
 <body>
+    <button onclick="goBack()">
+        voltar
+    </button>
+
     <h1>IA´S mais conhecidas.</h1>
 
     <div class="content">
@@ -18,27 +22,27 @@
             <input type="radio" name="slide" id="slide5">
 
             <div class="slide s1">
-                <a href="http://127.0.0.1:5500/AUTONOMA.html/index.html">
+                <a href="../AUTONOMA.html/index.html">
                     <img src="../BIOandroide/ScreensAUTON..jpg" alt="IA AUTONOMA"> 
                 </a>
             </div>
             <div class="slide">
-                <a href="http://127.0.0.1:5500/CHATGPT/index.html">
+                <a href="../CHATGPT/index.html">
                     <img src="../BIOandroide/ScreensMACH.LEARN.jpg" alt="IA DE MACHINELEARNING"> 
                 </a>
             </div>
             <div class="slide">
-                <a href="http://127.0.0.1:5500/IA%20HIBRIDA/INDEX.html">
+                <a href="../IA%20HIBRIDA/INDEX.html">
                     <img src="../BIOandroide/ScreensIAHIBRIDA.jpg" alt="IA HIBRIDA"> 
                 </a>
             </div>
             <div class="slide">
-                <a href="http://127.0.0.1:5500/IA%20RNA/INDEX.html">
+                <a href="../IA%20RNA/INDEX.html">
                     <img src="../BIOandroide/ScreenSREDES.RNA.jpg" alt="IA DE REDES NEURAIS ARTICIAIS OU RNA">
                 </a>
             </div>
             <div class="slide">
-                <a href="http://127.0.0.1:5500/IACOMPLEXA/INDEX.html">
+                <a href="../IACOMPLEXA/INDEX.html">
                     <img src="../BIOandroide/ScreenSIAFORT.jpg" alt="IA FORTE">
                 </a>
             </div>
@@ -53,8 +57,12 @@
         </div>
 
     </div>
-
-
+   <script>
+        // função do botão voltar
+function goBack() {
+    window.history.back();
+  }
+   </script>
     
 
 </body>
