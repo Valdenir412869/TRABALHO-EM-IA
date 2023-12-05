@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  color: white; /* Added text color for better visibility */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(72deg, #94E9F2 1%, #011526 99%);
+  font-family: Arial, Helvetica, sans-serif; /* Added font-family for consistency */
+}
+
+p {
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  height: 25%;
+  margin: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #000; 
+  border-radius: 10px; 
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #011526;
+  color: white;
+}
